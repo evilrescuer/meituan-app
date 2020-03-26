@@ -9,8 +9,4 @@
 #import "SwiperCollectionViewCell.h"
 
 @implementation SwiperCollectionViewCell
-//- (void)setBounds:(CGRect)bounds {
-//    [super setBounds:bounds];
-//    self.contentView.frame = bounds;
-//}
 @end

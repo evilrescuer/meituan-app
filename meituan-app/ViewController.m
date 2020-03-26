@@ -78,62 +78,12 @@
     UIImage *uiImage = [UIImage imageNamed:_imageNames[indexPath.item]];
     cell.imageView.image = uiImage;
     cell.imageView.layer.cornerRadius = 8;
-//    cell.imageView.layer.borderWidth = 0;
-    
     return cell;
 }
 
 - (NSInteger)collectionView:(nonnull UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return _SWIPER_COUNT;
 }
-
-- (void)encodeWithCoder:(nonnull NSCoder *)coder {
-    
-}
-
-- (void)traitCollectionDidChange:(nullable UITraitCollection *)previousTraitCollection {
-    
-}
-
-- (void)preferredContentSizeDidChangeForChildContentContainer:(nonnull id<UIContentContainer>)container {
-    
-}
-
-//- (CGSize)sizeForChildContentContainer:(nonnull id<UIContentContainer>)container withParentContainerSize:(CGSize)parentSize {
-//    return parentSize;
-//}
-
-- (void)systemLayoutFittingSizeDidChangeForChildContentContainer:(nonnull id<UIContentContainer>)container {
-    
-}
-
-- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(nonnull id<UIViewControllerTransitionCoordinator>)coordinator {
-    
-}
-
-- (void)willTransitionToTraitCollection:(nonnull UITraitCollection *)newCollection withTransitionCoordinator:(nonnull id<UIViewControllerTransitionCoordinator>)coordinator {
-    
-}
-
-- (void)didUpdateFocusInContext:(nonnull UIFocusUpdateContext *)context withAnimationCoordinator:(nonnull UIFocusAnimationCoordinator *)coordinator {
-    
-}
-
-- (void)setNeedsFocusUpdate {
-    
-}
-
-//- (BOOL)shouldUpdateFocusInContext:(nonnull UIFocusUpdateContext *)context {
-//
-//}
-//
-//- (void)updateFocusIfNeeded {
-//
-//}
-
-//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-//    return 200;
-//}
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
     
@@ -151,14 +101,10 @@
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
     _willEndDraggingX = scrollView.contentOffset.x;
     if(_willEndDraggingX > _willBeginDraggingX) {
-//        NSLog(_currentShowingIndexOfSwiperCell);
         [self scrollToNextIndexForSwiper:false];
-        NSLog(@"右滑%ld", _currentShowingIndexOfSwiperCell);
     }
     else {
         [self scrollToPreviousIndexForSwiper:false];
-        NSLog(@"左滑%ld", _currentShowingIndexOfSwiperCell);
-//        NSLog(_currentShowingIndexOfSwiperCell);
     }
 }
 
