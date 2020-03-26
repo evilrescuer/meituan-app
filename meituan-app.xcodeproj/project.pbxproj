@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DF35B2C68DEB32ACA814BC6 /* Pods_meituan_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB03E993BFBB5B66C9A0AA6 /* Pods_meituan_appTests.framework */; };
+		5CC034AAC1C946B7247B47AC /* Pods_meituan_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9155A4B3360C9851658BB6A1 /* Pods_meituan_app.framework */; };
+		E36C3F8DC647CDF79AD62B80 /* Pods_meituan_app_meituan_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43D28437D5772048421F95C /* Pods_meituan_app_meituan_appUITests.framework */; };
 		F536E244242A032900E03826 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F536E243242A032900E03826 /* AppDelegate.m */; };
 		F536E247242A032900E03826 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F536E246242A032900E03826 /* SceneDelegate.m */; };
 		F536E24A242A032900E03826 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F536E249242A032900E03826 /* ViewController.m */; };
@@ -16,6 +19,7 @@
 		F536E255242A032A00E03826 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F536E254242A032A00E03826 /* main.m */; };
 		F536E25F242A032A00E03826 /* meituan_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F536E25E242A032A00E03826 /* meituan_appTests.m */; };
 		F536E26A242A032A00E03826 /* meituan_appUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F536E269242A032A00E03826 /* meituan_appUITests.m */; };
+		F536E279242A0AC000E03826 /* SwiperCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F536E278242A0AC000E03826 /* SwiperCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46EBD34B10B89A4A2A7B418B /* Pods-meituan-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meituan-appTests.release.xcconfig"; path = "Target Support Files/Pods-meituan-appTests/Pods-meituan-appTests.release.xcconfig"; sourceTree = "<group>"; };
+		7BC94CDA965FA06509182A46 /* Pods-meituan-app-meituan-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meituan-app-meituan-appUITests.debug.xcconfig"; path = "Target Support Files/Pods-meituan-app-meituan-appUITests/Pods-meituan-app-meituan-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8358F79EE4F27F1F8F87284E /* Pods-meituan-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meituan-app.debug.xcconfig"; path = "Target Support Files/Pods-meituan-app/Pods-meituan-app.debug.xcconfig"; sourceTree = "<group>"; };
+		9155A4B3360C9851658BB6A1 /* Pods_meituan_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meituan_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EF38897916B224F30BF550 /* Pods-meituan-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meituan-appTests.debug.xcconfig"; path = "Target Support Files/Pods-meituan-appTests/Pods-meituan-appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A43D28437D5772048421F95C /* Pods_meituan_app_meituan_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meituan_app_meituan_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD76A889F83E7B44E2687E2F /* Pods-meituan-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meituan-app.release.xcconfig"; path = "Target Support Files/Pods-meituan-app/Pods-meituan-app.release.xcconfig"; sourceTree = "<group>"; };
+		BEB03E993BFBB5B66C9A0AA6 /* Pods_meituan_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meituan_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF10CD473AC8B2C2E9403DCA /* Pods-meituan-app-meituan-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meituan-app-meituan-appUITests.release.xcconfig"; path = "Target Support Files/Pods-meituan-app-meituan-appUITests/Pods-meituan-app-meituan-appUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F536E23F242A032900E03826 /* meituan-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "meituan-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F536E242242A032900E03826 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F536E243242A032900E03826 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +67,8 @@
 		F536E265242A032A00E03826 /* meituan-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "meituan-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F536E269242A032A00E03826 /* meituan_appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meituan_appUITests.m; sourceTree = "<group>"; };
 		F536E26B242A032A00E03826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F536E277242A0AC000E03826 /* SwiperCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiperCollectionViewCell.h; sourceTree = "<group>"; };
+		F536E278242A0AC000E03826 /* SwiperCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiperCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CC034AAC1C946B7247B47AC /* Pods_meituan_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF35B2C68DEB32ACA814BC6 /* Pods_meituan_appTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +92,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E36C3F8DC647CDF79AD62B80 /* Pods_meituan_app_meituan_appUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D075A3C4182BD8EB4A93B07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9155A4B3360C9851658BB6A1 /* Pods_meituan_app.framework */,
+				A43D28437D5772048421F95C /* Pods_meituan_app_meituan_appUITests.framework */,
+				BEB03E993BFBB5B66C9A0AA6 /* Pods_meituan_appTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED736F6665083CAD00BFA98D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8358F79EE4F27F1F8F87284E /* Pods-meituan-app.debug.xcconfig */,
+				AD76A889F83E7B44E2687E2F /* Pods-meituan-app.release.xcconfig */,
+				7BC94CDA965FA06509182A46 /* Pods-meituan-app-meituan-appUITests.debug.xcconfig */,
+				CF10CD473AC8B2C2E9403DCA /* Pods-meituan-app-meituan-appUITests.release.xcconfig */,
+				A2EF38897916B224F30BF550 /* Pods-meituan-appTests.debug.xcconfig */,
+				46EBD34B10B89A4A2A7B418B /* Pods-meituan-appTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F536E236242A032900E03826 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +130,8 @@
 				F536E25D242A032A00E03826 /* meituan-appTests */,
 				F536E268242A032A00E03826 /* meituan-appUITests */,
 				F536E240242A032900E03826 /* Products */,
+				ED736F6665083CAD00BFA98D /* Pods */,
+				1D075A3C4182BD8EB4A93B07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +154,8 @@
 				F536E246242A032900E03826 /* SceneDelegate.m */,
 				F536E248242A032900E03826 /* ViewController.h */,
 				F536E249242A032900E03826 /* ViewController.m */,
+				F536E277242A0AC000E03826 /* SwiperCollectionViewCell.h */,
+				F536E278242A0AC000E03826 /* SwiperCollectionViewCell.m */,
 				F536E24B242A032900E03826 /* Main.storyboard */,
 				F536E24E242A032A00E03826 /* Assets.xcassets */,
 				F536E250242A032A00E03826 /* LaunchScreen.storyboard */,
@@ -144,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F536E26E242A032A00E03826 /* Build configuration list for PBXNativeTarget "meituan-app" */;
 			buildPhases = (
+				B7D576D0B712A8FC1C16DA5D /* [CP] Check Pods Manifest.lock */,
 				F536E23B242A032900E03826 /* Sources */,
 				F536E23C242A032900E03826 /* Frameworks */,
 				F536E23D242A032900E03826 /* Resources */,
+				AAAFD71B10F3EDC595268E05 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F536E271242A032A00E03826 /* Build configuration list for PBXNativeTarget "meituan-appTests" */;
 			buildPhases = (
+				BBBFF7448835165ACB731574 /* [CP] Check Pods Manifest.lock */,
 				F536E256242A032A00E03826 /* Sources */,
 				F536E257242A032A00E03826 /* Frameworks */,
 				F536E258242A032A00E03826 /* Resources */,
@@ -179,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F536E274242A032A00E03826 /* Build configuration list for PBXNativeTarget "meituan-appUITests" */;
 			buildPhases = (
+				0FEE2F9D94A7F738ABDE0A1B /* [CP] Check Pods Manifest.lock */,
 				F536E261242A032A00E03826 /* Sources */,
 				F536E262242A032A00E03826 /* Frameworks */,
 				F536E263242A032A00E03826 /* Resources */,
+				0C5C6EA8A80A8BD6E8B8ABBB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,11 +313,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C5C6EA8A80A8BD6E8B8ABBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meituan-app-meituan-appUITests/Pods-meituan-app-meituan-appUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meituan-app-meituan-appUITests/Pods-meituan-app-meituan-appUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-meituan-app-meituan-appUITests/Pods-meituan-app-meituan-appUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FEE2F9D94A7F738ABDE0A1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-meituan-app-meituan-appUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAAFD71B10F3EDC595268E05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meituan-app/Pods-meituan-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meituan-app/Pods-meituan-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-meituan-app/Pods-meituan-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7D576D0B712A8FC1C16DA5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-meituan-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBBFF7448835165ACB731574 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-meituan-appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F536E23B242A032900E03826 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F536E279242A0AC000E03826 /* SwiperCollectionViewCell.m in Sources */,
 				F536E24A242A032900E03826 /* ViewController.m in Sources */,
 				F536E244242A032900E03826 /* AppDelegate.m in Sources */,
 				F536E255242A032A00E03826 /* main.m in Sources */,
@@ -437,6 +592,7 @@
 		};
 		F536E26F242A032A00E03826 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8358F79EE4F27F1F8F87284E /* Pods-meituan-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +609,7 @@
 		};
 		F536E270242A032A00E03826 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD76A889F83E7B44E2687E2F /* Pods-meituan-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +626,7 @@
 		};
 		F536E272242A032A00E03826 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2EF38897916B224F30BF550 /* Pods-meituan-appTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +646,7 @@
 		};
 		F536E273242A032A00E03826 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EBD34B10B89A4A2A7B418B /* Pods-meituan-appTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +666,7 @@
 		};
 		F536E275242A032A00E03826 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC94CDA965FA06509182A46 /* Pods-meituan-app-meituan-appUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "meituan-appUITests/Info.plist";
@@ -524,6 +684,7 @@
 		};
 		F536E276242A032A00E03826 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF10CD473AC8B2C2E9403DCA /* Pods-meituan-app-meituan-appUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "meituan-appUITests/Info.plist";
