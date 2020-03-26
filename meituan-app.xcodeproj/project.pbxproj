@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,9 @@
 		F536E25F242A032A00E03826 /* meituan_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F536E25E242A032A00E03826 /* meituan_appTests.m */; };
 		F536E26A242A032A00E03826 /* meituan_appUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F536E269242A032A00E03826 /* meituan_appUITests.m */; };
 		F536E279242A0AC000E03826 /* SwiperCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F536E278242A0AC000E03826 /* SwiperCollectionViewCell.m */; };
+		F5F8F0CF242C776D005F5F39 /* StoreListCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F8F0CE242C776D005F5F39 /* StoreListCollectionView.m */; };
+		F5F8F0D2242C7829005F5F39 /* SwiperCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F8F0D1242C7829005F5F39 /* SwiperCollectionView.m */; };
+		F5F8F0D5242C79CD005F5F39 /* StoreListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F8F0D4242C79CD005F5F39 /* StoreListCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,12 @@
 		F536E26B242A032A00E03826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F536E277242A0AC000E03826 /* SwiperCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiperCollectionViewCell.h; sourceTree = "<group>"; };
 		F536E278242A0AC000E03826 /* SwiperCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiperCollectionViewCell.m; sourceTree = "<group>"; };
+		F5F8F0CD242C776D005F5F39 /* StoreListCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreListCollectionView.h; sourceTree = "<group>"; };
+		F5F8F0CE242C776D005F5F39 /* StoreListCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreListCollectionView.m; sourceTree = "<group>"; };
+		F5F8F0D0242C7829005F5F39 /* SwiperCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiperCollectionView.h; sourceTree = "<group>"; };
+		F5F8F0D1242C7829005F5F39 /* SwiperCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiperCollectionView.m; sourceTree = "<group>"; };
+		F5F8F0D3242C79CD005F5F39 /* StoreListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreListCollectionViewCell.h; sourceTree = "<group>"; };
+		F5F8F0D4242C79CD005F5F39 /* StoreListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreListCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +128,6 @@
 				A2EF38897916B224F30BF550 /* Pods-meituan-appTests.debug.xcconfig */,
 				46EBD34B10B89A4A2A7B418B /* Pods-meituan-appTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -148,14 +156,14 @@
 		F536E241242A032900E03826 /* meituan-app */ = {
 			isa = PBXGroup;
 			children = (
+				F5F8F0D7242C8E5F005F5F39 /* storeList */,
+				F5F8F0D6242C8E40005F5F39 /* swiper */,
 				F536E242242A032900E03826 /* AppDelegate.h */,
 				F536E243242A032900E03826 /* AppDelegate.m */,
 				F536E245242A032900E03826 /* SceneDelegate.h */,
 				F536E246242A032900E03826 /* SceneDelegate.m */,
 				F536E248242A032900E03826 /* ViewController.h */,
 				F536E249242A032900E03826 /* ViewController.m */,
-				F536E277242A0AC000E03826 /* SwiperCollectionViewCell.h */,
-				F536E278242A0AC000E03826 /* SwiperCollectionViewCell.m */,
 				F536E24B242A032900E03826 /* Main.storyboard */,
 				F536E24E242A032A00E03826 /* Assets.xcassets */,
 				F536E250242A032A00E03826 /* LaunchScreen.storyboard */,
@@ -181,6 +189,28 @@
 				F536E26B242A032A00E03826 /* Info.plist */,
 			);
 			path = "meituan-appUITests";
+			sourceTree = "<group>";
+		};
+		F5F8F0D6242C8E40005F5F39 /* swiper */ = {
+			isa = PBXGroup;
+			children = (
+				F5F8F0D0242C7829005F5F39 /* SwiperCollectionView.h */,
+				F5F8F0D1242C7829005F5F39 /* SwiperCollectionView.m */,
+				F536E277242A0AC000E03826 /* SwiperCollectionViewCell.h */,
+				F536E278242A0AC000E03826 /* SwiperCollectionViewCell.m */,
+			);
+			name = swiper;
+			sourceTree = "<group>";
+		};
+		F5F8F0D7242C8E5F005F5F39 /* storeList */ = {
+			isa = PBXGroup;
+			children = (
+				F5F8F0CD242C776D005F5F39 /* StoreListCollectionView.h */,
+				F5F8F0CE242C776D005F5F39 /* StoreListCollectionView.m */,
+				F5F8F0D3242C79CD005F5F39 /* StoreListCollectionViewCell.h */,
+				F5F8F0D4242C79CD005F5F39 /* StoreListCollectionViewCell.m */,
+			);
+			path = storeList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,8 +451,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F8F0D5242C79CD005F5F39 /* StoreListCollectionViewCell.m in Sources */,
 				F536E279242A0AC000E03826 /* SwiperCollectionViewCell.m in Sources */,
 				F536E24A242A032900E03826 /* ViewController.m in Sources */,
+				F5F8F0D2242C7829005F5F39 /* SwiperCollectionView.m in Sources */,
+				F5F8F0CF242C776D005F5F39 /* StoreListCollectionView.m in Sources */,
 				F536E244242A032900E03826 /* AppDelegate.m in Sources */,
 				F536E255242A032A00E03826 /* main.m in Sources */,
 				F536E247242A032900E03826 /* SceneDelegate.m in Sources */,
